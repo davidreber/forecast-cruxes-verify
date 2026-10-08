@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "forecast-cruxes-verify"
+version = "0.1.0"
+description = "Verify the forecast-cruxes paper from its data release, as a reviewer would."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "David Reber", email = "davidpreber@gmail.com" }]
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = [
+    # The package under test. It is not on PyPI; this pins its v0.4.0 release
+    # on GitHub (see README).
+    "forecast-cruxes @ git+https://github.com/davidreber/forecast-cruxes@v0.4.0",
+    "numpy>=1.24",
+    "scipy>=1.10",
+]
+
+[project.urls]
+Homepage = "https://github.com/davidreber/forecast-cruxes-verify"
+Package = "https://github.com/davidreber/forecast-cruxes"
+"Data release" = "https://github.com/davidreber/forecast-cruxes-data"
+
+[project.optional-dependencies]
+gpu = ["forecast-cruxes[gpu] @ git+https://github.com/davidreber/forecast-cruxes@v0.4.0"]
+figures = ["matplotlib>=3.7"]
+test = ["pytest>=7.0"]
+
+[project.scripts]
+cruxes-verify = "cruxes_verify.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["cruxes_verify*"]
+
+# The paper's expected numbers ship with the verifier (src/cruxes_verify/expected/).
+[tool.setuptools.package-data]
+cruxes_verify = ["expected/*.json", "expected/*.md", "expected/**/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

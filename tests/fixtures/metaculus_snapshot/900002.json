@@ -1,0 +1,23 @@
+{
+ "id": 900002,
+ "title": "Will the invented Lantern Valley library open a second branch before 2032?",
+ "status": "open",
+ "scheduled_close_time": "2031-12-01T00:00:00Z",
+ "question": {
+  "id": 800002,
+  "title": "Will the invented Lantern Valley library open a second branch before 2032?",
+  "type": "binary",
+  "status": "open",
+  "resolution": null,
+  "scheduled_close_time": "2031-12-01T00:00:00Z",
+  "description": "Invented for tests.",
+  "resolution_criteria": "Invented criteria.",
+  "fine_print": "",
+  "aggregations": {
+   "recency_weighted": {
+    "history": [],
+    "latest": null
+   }
+  }
+ }
+}

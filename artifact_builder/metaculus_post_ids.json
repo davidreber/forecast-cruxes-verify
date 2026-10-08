@@ -1,0 +1,131 @@
+[
+ {
+  "question_id": "will-afd-win-the-most-seats-in-the-badenwürttemberg-landtag-election",
+  "metaculus_post_id": 42117,
+  "url": "https://www.metaculus.com/questions/42117/",
+  "id_source": "api_title_search",
+  "id_status": "confirmed",
+  "evidence": "the only API title search result whose title slug equals question_id (2026-09-24); Spring 2026 FutureEval Bot Tournament"
+ },
+ {
+  "question_id": "will-ali-khamenei-cease-to-be-supreme-leader-of-iran-before-april-1-2026",
+  "metaculus_post_id": 42232,
+  "url": "https://www.metaculus.com/questions/42232/",
+  "id_source": "api_title_search",
+  "id_status": "ambiguous",
+  "alternative_post_ids": [
+   42148
+  ],
+  "evidence": "two posts have this exact title: 42232 in the Spring 2026 FutureEval Bot Tournament, where the other 12 questions are, and 42148 in no tournament; 42232 chosen for that reason"
+ },
+ {
+  "question_id": "will-any-political-party-or-coalition-acquire-a-supermajority-in-the-2026-hungar",
+  "metaculus_post_id": 42231,
+  "url": "https://www.metaculus.com/questions/42231/",
+  "id_source": "api_title_search",
+  "id_status": "ambiguous",
+  "alternative_post_ids": [
+   40005
+  ],
+  "evidence": "two posts have this exact title: 42231 in the Spring 2026 FutureEval Bot Tournament, where the other 12 questions are, and 40005 in no tournament; 42231 chosen for that reason"
+ },
+ {
+  "question_id": "will-any-state-actor-use-chemical-weapons-in-ukraine-before-may-1-2026",
+  "metaculus_post_id": 42119,
+  "url": "https://www.metaculus.com/questions/42119/",
+  "id_source": "forecast_link",
+  "id_status": "confirmed",
+  "evidence": "our forecasts of this question link this post (16 of 30); the API title's slug equals question_id (checked 2026-09-24); a title search finds no other exact match; Spring 2026 FutureEval Bot Tournament"
+ },
+ {
+  "question_id": "will-at-least-one-film-surpass-us1-billion-in-worldwide-box-office-before-may-1-",
+  "metaculus_post_id": 42241,
+  "url": "https://www.metaculus.com/questions/42241/",
+  "id_source": "api_title_search",
+  "id_status": "confirmed",
+  "evidence": "the only API title search result whose title slug equals question_id (2026-09-24); Spring 2026 FutureEval Bot Tournament"
+ },
+ {
+  "question_id": "will-cdu-win-the-most-seats-in-the-badenwürttemberg-landtag-election",
+  "metaculus_post_id": 42116,
+  "url": "https://www.metaculus.com/questions/42116/",
+  "id_source": "api_title_search",
+  "id_status": "confirmed",
+  "evidence": "the only API title search result whose title slug equals question_id (2026-09-24); Spring 2026 FutureEval Bot Tournament"
+ },
+ {
+  "question_id": "will-christies-sothebys-or-phillips-report-a-public-auction-sale-of-a-painting-f",
+  "metaculus_post_id": 42243,
+  "url": "https://www.metaculus.com/questions/42243/",
+  "id_source": "forecast_link",
+  "id_status": "confirmed",
+  "evidence": "our forecasts of this question link this post (6 of 30); the API title's slug equals question_id (checked 2026-09-24); a title search finds no other exact match; Spring 2026 FutureEval Bot Tournament"
+ },
+ {
+  "question_id": "will-frontier-group-holdings-inc-file-for-bankruptcy-protection-before-may-1-202",
+  "metaculus_post_id": 42120,
+  "url": "https://www.metaculus.com/questions/42120/",
+  "id_source": "forecast_link",
+  "id_status": "confirmed",
+  "evidence": "our forecasts of this question link this post (3 of 30); the API title's slug equals question_id (checked 2026-09-24); a title search finds no other exact match; Spring 2026 FutureEval Bot Tournament"
+ },
+ {
+  "question_id": "will-hr-33-united-statestaiwan-expedited-doubletax-relief-act-be-enacted-into-la",
+  "metaculus_post_id": 42246,
+  "url": "https://www.metaculus.com/questions/42246/",
+  "id_source": "forecast_link",
+  "id_status": "confirmed",
+  "evidence": "our forecasts of this question link this post (4 of 30); the API title's slug equals question_id (checked 2026-09-24); a title search finds no other exact match; Spring 2026 FutureEval Bot Tournament"
+ },
+ {
+  "question_id": "will-the-cannes-film-festival-publish-its-2026-official-selection-before-april-1",
+  "metaculus_post_id": 42240,
+  "url": "https://www.metaculus.com/questions/42240/",
+  "id_source": "api_title_search",
+  "id_status": "confirmed",
+  "evidence": "the only API title search result whose title slug equals question_id (2026-09-24); Spring 2026 FutureEval Bot Tournament"
+ },
+ {
+  "question_id": "will-the-english-wikipedia-have-at-least-7145000-articles-before-march-1-2026",
+  "metaculus_post_id": 42235,
+  "url": "https://www.metaculus.com/questions/42235/",
+  "id_source": "forecast_link",
+  "id_status": "confirmed",
+  "evidence": "our forecasts of this question link this post (1 of 30); the API title's slug equals question_id (checked 2026-09-24); a title search finds no other exact match; Spring 2026 FutureEval Bot Tournament"
+ },
+ {
+  "question_id": "will-the-iom-missing-migrants-project-record-at-least-1000-mediterranean-migrant",
+  "metaculus_post_id": 42245,
+  "url": "https://www.metaculus.com/questions/42245/",
+  "id_source": "api_title_search",
+  "id_status": "confirmed",
+  "evidence": "the only API title search result whose title slug equals question_id (2026-09-24); Spring 2026 FutureEval Bot Tournament"
+ },
+ {
+  "question_id": "will-the-iom-missing-migrants-project-record-at-least-900-mediterranean-migrant-",
+  "metaculus_post_id": 42237,
+  "url": "https://www.metaculus.com/questions/42237/",
+  "id_source": "api_title_search",
+  "id_status": "confirmed",
+  "evidence": "the only API title search result whose title slug equals question_id (2026-09-24); Spring 2026 FutureEval Bot Tournament"
+ },
+ {
+  "question_id": "will-the-official-result-of-the-lamag-byelection-sabah-scheduled-for-january-24-",
+  "metaculus_post_id": 42118,
+  "url": "https://www.metaculus.com/questions/42118/",
+  "id_source": "api_title_search",
+  "id_status": "confirmed",
+  "evidence": "the only API title search result whose title slug equals question_id (2026-09-24); Spring 2026 FutureEval Bot Tournament"
+ },
+ {
+  "question_id": "will-the-uk-increase-the-qualifying-period-for-settlement-to-10-years-before-may",
+  "metaculus_post_id": 42230,
+  "url": "https://www.metaculus.com/questions/42230/",
+  "id_source": "api_title_search",
+  "id_status": "ambiguous",
+  "alternative_post_ids": [
+   42135
+  ],
+  "evidence": "two posts have this exact title: 42230 in the Spring 2026 FutureEval Bot Tournament, where the other 12 questions are, and 42135 in the Metaculus Cup Spring 2026, the one our forecasts link (2 of 30); 42230 chosen for that reason"
+ }
+]

@@ -1,0 +1,7 @@
+__pycache__/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+# Work directories of local reruns. The data artifact is never in this repository.
+work/

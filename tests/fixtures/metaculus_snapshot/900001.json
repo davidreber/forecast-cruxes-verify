@@ -1,0 +1,97 @@
+{
+ "id": 900001,
+ "title": "Will the Glass Harbor ferry line carry at least 2,000,000 passengers in 2030?",
+ "short_title": "Glass Harbor ferry passengers 2030",
+ "slug": "glass-harbor-ferry-2m-passengers-2030",
+ "status": "resolved",
+ "resolved": true,
+ "open_time": "2030-01-02T00:00:00Z",
+ "scheduled_close_time": "2030-06-01T00:00:00Z",
+ "actual_close_time": "2030-06-01T00:00:00Z",
+ "scheduled_resolve_time": "2031-01-15T00:00:00Z",
+ "nr_forecasters": 3,
+ "projects": {
+  "default_project": {
+   "id": 1,
+   "name": "Invented project"
+  }
+ },
+ "question": {
+  "id": 800001,
+  "title": "Will the Glass Harbor ferry line carry at least 2,000,000 passengers in 2030?",
+  "type": "binary",
+  "status": "resolved",
+  "resolution": "yes",
+  "open_time": "2030-01-02T00:00:00Z",
+  "scheduled_close_time": "2030-06-01T00:00:00Z",
+  "actual_close_time": "2030-06-01T00:00:00Z",
+  "scheduled_resolve_time": "2031-01-15T00:00:00Z",
+  "actual_resolve_time": "2031-01-10T00:00:00Z",
+  "description": "Glass Harbor is an invented town used only in tests.",
+  "resolution_criteria": "Resolves Yes if the invented ferry operator reports at least 2,000,000 passengers for 2030.",
+  "fine_print": "Invented fine print.",
+  "aggregations": {
+   "recency_weighted": {
+    "history": [
+     {
+      "start_time": 1893456000.0,
+      "end_time": 1896134400.0,
+      "forecaster_count": 2,
+      "interval_lower_bounds": [
+       0.4
+      ],
+      "centers": [
+       0.55
+      ],
+      "interval_upper_bounds": [
+       0.7
+      ],
+      "means": [
+       0.54
+      ]
+     },
+     {
+      "start_time": 1896134400.0,
+      "end_time": null,
+      "forecaster_count": 3,
+      "interval_lower_bounds": [
+       0.5
+      ],
+      "centers": [
+       0.62
+      ],
+      "interval_upper_bounds": [
+       0.75
+      ],
+      "means": [
+       0.61
+      ]
+     }
+    ],
+    "latest": {
+     "start_time": 1896134400.0,
+     "end_time": null,
+     "forecaster_count": 3,
+     "interval_lower_bounds": [
+      0.5
+     ],
+     "centers": [
+      0.62
+     ],
+     "interval_upper_bounds": [
+      0.75
+     ],
+     "means": [
+      0.61
+     ]
+    },
+    "score_data": {}
+   },
+   "unweighted": {
+    "history": [],
+    "latest": null,
+    "score_data": {}
+   }
+  }
+ }
+}

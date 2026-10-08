@@ -1,0 +1,725 @@
+{
+ "rule": "Exact-text duplicates within one pool are removed before selection. Normalization: ' '.join(text.split()) (strip, collapse every whitespace run to one space); duplicates are premises of the same pool whose normalized strings are exactly equal (case sensitive, no fuzzy matching); the first occurrence is kept verbatim in its original position, later copies are dropped with their index-aligned rationale.",
+ "removed": {
+  "introspected": 0,
+  "extracted": 88
+ },
+ "questions_with_repeats": {
+  "introspected": 0,
+  "extracted": 36
+ },
+ "per_question": {
+  "akron-vs-texas-tech": {
+   "introspected": {
+    "given": 66,
+    "kept": 66,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 166,
+    "kept": 165,
+    "removed": 1
+   }
+  },
+  "alabama-vs-hofstra": {
+   "introspected": {
+    "given": 66,
+    "kept": 66,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 148,
+    "kept": 146,
+    "removed": 2
+   }
+  },
+  "alabama-vs-michigan": {
+   "introspected": {
+    "given": 75,
+    "kept": 75,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 156,
+    "kept": 155,
+    "removed": 1
+   }
+  },
+  "alabama-vs-texas-tech": {
+   "introspected": {
+    "given": 68,
+    "kept": 68,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 137,
+    "kept": 137,
+    "removed": 0
+   }
+  },
+  "arizona-vs-arkansas": {
+   "introspected": {
+    "given": 71,
+    "kept": 71,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 152,
+    "kept": 150,
+    "removed": 2
+   }
+  },
+  "arizona-vs-liu": {
+   "introspected": {
+    "given": 64,
+    "kept": 64,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 153,
+    "kept": 153,
+    "removed": 0
+   }
+  },
+  "arizona-vs-michigan": {
+   "introspected": {
+    "given": 71,
+    "kept": 71,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 152,
+    "kept": 152,
+    "removed": 0
+   }
+  },
+  "arizona-vs-purdue": {
+   "introspected": {
+    "given": 86,
+    "kept": 86,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 167,
+    "kept": 167,
+    "removed": 0
+   }
+  },
+  "arizona-vs-utah-state": {
+   "introspected": {
+    "given": 74,
+    "kept": 74,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 142,
+    "kept": 140,
+    "removed": 2
+   }
+  },
+  "arkansas-vs-hawaii": {
+   "introspected": {
+    "given": 64,
+    "kept": 64,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 160,
+    "kept": 160,
+    "removed": 0
+   }
+  },
+  "arkansas-vs-high-point": {
+   "introspected": {
+    "given": 83,
+    "kept": 83,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 173,
+    "kept": 170,
+    "removed": 3
+   }
+  },
+  "cal-baptist-vs-kansas": {
+   "introspected": {
+    "given": 73,
+    "kept": 73,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 157,
+    "kept": 157,
+    "removed": 0
+   }
+  },
+  "clemson-vs-iowa": {
+   "introspected": {
+    "given": 67,
+    "kept": 67,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 177,
+    "kept": 173,
+    "removed": 4
+   }
+  },
+  "duke-vs-siena": {
+   "introspected": {
+    "given": 65,
+    "kept": 65,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 174,
+    "kept": 174,
+    "removed": 0
+   }
+  },
+  "duke-vs-st-johns": {
+   "introspected": {
+    "given": 72,
+    "kept": 72,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 185,
+    "kept": 185,
+    "removed": 0
+   }
+  },
+  "duke-vs-tcu": {
+   "introspected": {
+    "given": 65,
+    "kept": 65,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 165,
+    "kept": 165,
+    "removed": 0
+   }
+  },
+  "duke-vs-uconn": {
+   "introspected": {
+    "given": 74,
+    "kept": 74,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 188,
+    "kept": 187,
+    "removed": 1
+   }
+  },
+  "florida-vs-iowa": {
+   "introspected": {
+    "given": 67,
+    "kept": 67,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 148,
+    "kept": 144,
+    "removed": 4
+   }
+  },
+  "florida-vs-prairie-view-am": {
+   "introspected": {
+    "given": 67,
+    "kept": 67,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 159,
+    "kept": 157,
+    "removed": 2
+   }
+  },
+  "furman-vs-uconn": {
+   "introspected": {
+    "given": 70,
+    "kept": 70,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 173,
+    "kept": 173,
+    "removed": 0
+   }
+  },
+  "georgia-vs-saint-louis": {
+   "introspected": {
+    "given": 75,
+    "kept": 75,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 158,
+    "kept": 158,
+    "removed": 0
+   }
+  },
+  "gonzaga-vs-kennesaw-state": {
+   "introspected": {
+    "given": 63,
+    "kept": 63,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 144,
+    "kept": 143,
+    "removed": 1
+   }
+  },
+  "high-point-vs-wisconsin": {
+   "introspected": {
+    "given": 65,
+    "kept": 65,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 179,
+    "kept": 174,
+    "removed": 5
+   }
+  },
+  "houston-vs-idaho": {
+   "introspected": {
+    "given": 76,
+    "kept": 76,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 167,
+    "kept": 167,
+    "removed": 0
+   }
+  },
+  "houston-vs-illinois": {
+   "introspected": {
+    "given": 72,
+    "kept": 72,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 156,
+    "kept": 154,
+    "removed": 2
+   }
+  },
+  "houston-vs-texas-am": {
+   "introspected": {
+    "given": 68,
+    "kept": 68,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 161,
+    "kept": 156,
+    "removed": 5
+   }
+  },
+  "illinois-vs-iowa": {
+   "introspected": {
+    "given": 73,
+    "kept": 73,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 139,
+    "kept": 138,
+    "removed": 1
+   }
+  },
+  "illinois-vs-penn": {
+   "introspected": {
+    "given": 71,
+    "kept": 71,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 154,
+    "kept": 154,
+    "removed": 0
+   }
+  },
+  "illinois-vs-uconn": {
+   "introspected": {
+    "given": 77,
+    "kept": 77,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 145,
+    "kept": 145,
+    "removed": 0
+   }
+  },
+  "illinois-vs-vcu": {
+   "introspected": {
+    "given": 77,
+    "kept": 77,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 155,
+    "kept": 154,
+    "removed": 1
+   }
+  },
+  "iowa-state-vs-kentucky": {
+   "introspected": {
+    "given": 69,
+    "kept": 69,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 177,
+    "kept": 176,
+    "removed": 1
+   }
+  },
+  "iowa-state-vs-tennessee": {
+   "introspected": {
+    "given": 68,
+    "kept": 68,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 168,
+    "kept": 166,
+    "removed": 2
+   }
+  },
+  "iowa-state-vs-tennessee-state": {
+   "introspected": {
+    "given": 64,
+    "kept": 64,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 171,
+    "kept": 170,
+    "removed": 1
+   }
+  },
+  "iowa-vs-nebraska": {
+   "introspected": {
+    "given": 70,
+    "kept": 70,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 152,
+    "kept": 152,
+    "removed": 0
+   }
+  },
+  "kansas-vs-st-johns": {
+   "introspected": {
+    "given": 72,
+    "kept": 72,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 157,
+    "kept": 157,
+    "removed": 0
+   }
+  },
+  "kentucky-vs-santa-clara": {
+   "introspected": {
+    "given": 66,
+    "kept": 66,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 155,
+    "kept": 150,
+    "removed": 5
+   }
+  },
+  "lehigh-vs-prairie-view-am": {
+   "introspected": {
+    "given": 68,
+    "kept": 68,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 143,
+    "kept": 142,
+    "removed": 1
+   }
+  },
+  "louisville-vs-michigan-state": {
+   "introspected": {
+    "given": 70,
+    "kept": 70,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 141,
+    "kept": 141,
+    "removed": 0
+   }
+  },
+  "louisville-vs-south-florida": {
+   "introspected": {
+    "given": 66,
+    "kept": 66,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 182,
+    "kept": 176,
+    "removed": 6
+   }
+  },
+  "mcneese-vs-vanderbilt": {
+   "introspected": {
+    "given": 75,
+    "kept": 75,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 156,
+    "kept": 156,
+    "removed": 0
+   }
+  },
+  "miami-vs-missouri": {
+   "introspected": {
+    "given": 74,
+    "kept": 74,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 167,
+    "kept": 164,
+    "removed": 3
+   }
+  },
+  "miami-vs-purdue": {
+   "introspected": {
+    "given": 74,
+    "kept": 74,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 160,
+    "kept": 159,
+    "removed": 1
+   }
+  },
+  "michigan-state-vs-north-dakota-state": {
+   "introspected": {
+    "given": 78,
+    "kept": 78,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 162,
+    "kept": 161,
+    "removed": 1
+   }
+  },
+  "michigan-state-vs-uconn": {
+   "introspected": {
+    "given": 67,
+    "kept": 67,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 171,
+    "kept": 171,
+    "removed": 0
+   }
+  },
+  "michigan-vs-saint-louis": {
+   "introspected": {
+    "given": 69,
+    "kept": 69,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 178,
+    "kept": 176,
+    "removed": 2
+   }
+  },
+  "michigan-vs-tennessee": {
+   "introspected": {
+    "given": 71,
+    "kept": 71,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 174,
+    "kept": 173,
+    "removed": 1
+   }
+  },
+  "michigan-vs-uconn": {
+   "introspected": {
+    "given": 65,
+    "kept": 65,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 197,
+    "kept": 197,
+    "removed": 0
+   }
+  },
+  "nebraska-vs-troy": {
+   "introspected": {
+    "given": 78,
+    "kept": 78,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 147,
+    "kept": 145,
+    "removed": 2
+   }
+  },
+  "nebraska-vs-vanderbilt": {
+   "introspected": {
+    "given": 75,
+    "kept": 75,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 155,
+    "kept": 152,
+    "removed": 3
+   }
+  },
+  "north-carolina-vs-vcu": {
+   "introspected": {
+    "given": 79,
+    "kept": 79,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 163,
+    "kept": 162,
+    "removed": 1
+   }
+  },
+  "northern-iowa-vs-st-johns": {
+   "introspected": {
+    "given": 78,
+    "kept": 78,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 168,
+    "kept": 166,
+    "removed": 2
+   }
+  },
+  "ohio-state-vs-tcu": {
+   "introspected": {
+    "given": 67,
+    "kept": 67,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 157,
+    "kept": 155,
+    "removed": 2
+   }
+  },
+  "purdue-vs-queens": {
+   "introspected": {
+    "given": 69,
+    "kept": 69,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 156,
+    "kept": 156,
+    "removed": 0
+   }
+  },
+  "saint-marys-vs-texas-am": {
+   "introspected": {
+    "given": 64,
+    "kept": 64,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 156,
+    "kept": 155,
+    "removed": 1
+   }
+  },
+  "tennessee-vs-virginia": {
+   "introspected": {
+    "given": 72,
+    "kept": 72,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 152,
+    "kept": 150,
+    "removed": 2
+   }
+  },
+  "ucf-vs-ucla": {
+   "introspected": {
+    "given": 75,
+    "kept": 75,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 170,
+    "kept": 158,
+    "removed": 12
+   }
+  },
+  "ucla-vs-uconn": {
+   "introspected": {
+    "given": 74,
+    "kept": 74,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 148,
+    "kept": 146,
+    "removed": 2
+   }
+  },
+  "utah-state-vs-villanova": {
+   "introspected": {
+    "given": 73,
+    "kept": 73,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 180,
+    "kept": 180,
+    "removed": 0
+   }
+  },
+  "virginia-vs-wright-state": {
+   "introspected": {
+    "given": 67,
+    "kept": 67,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 151,
+    "kept": 151,
+    "removed": 0
+   }
+  }
+ },
+ "source": {
+  "path": "/net/projects/veitch/forecast-cruxes/Data/runs/march_madness_objects59_dedup/dedup_manifest.json",
+  "sha256": "f3b5b9f59179bca4a2b18e0ba4a7d7d4fa8294030b05324a53743e5308bb48f5"
+ }
+}

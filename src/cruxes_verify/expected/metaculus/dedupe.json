@@ -1,0 +1,197 @@
+{
+ "rule": "Exact-text duplicates within one pool are removed before selection. Normalization: ' '.join(text.split()) (strip, collapse every whitespace run to one space); duplicates are premises of the same pool whose normalized strings are exactly equal (case sensitive, no fuzzy matching); the first occurrence is kept verbatim in its original position, later copies are dropped with their index-aligned rationale.",
+ "removed": {
+  "introspected": 0,
+  "extracted": 321
+ },
+ "questions_with_repeats": {
+  "introspected": 0,
+  "extracted": 8
+ },
+ "per_question": {
+  "will-afd-win-the-most-seats-in-the-badenwürttemberg-landtag-election": {
+   "introspected": {
+    "given": 337,
+    "kept": 337,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 1638,
+    "kept": 1626,
+    "removed": 12
+   }
+  },
+  "will-ali-khamenei-cease-to-be-supreme-leader-of-iran-before-april-1-2026": {
+   "introspected": {
+    "given": 299,
+    "kept": 299,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 1128,
+    "kept": 907,
+    "removed": 221
+   }
+  },
+  "will-any-political-party-or-coalition-acquire-a-supermajority-in-the-2026-hungar": {
+   "introspected": {
+    "given": 336,
+    "kept": 336,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 1714,
+    "kept": 1714,
+    "removed": 0
+   }
+  },
+  "will-any-state-actor-use-chemical-weapons-in-ukraine-before-may-1-2026": {
+   "introspected": {
+    "given": 349,
+    "kept": 349,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 1620,
+    "kept": 1620,
+    "removed": 0
+   }
+  },
+  "will-at-least-one-film-surpass-us1-billion-in-worldwide-box-office-before-may-1-": {
+   "introspected": {
+    "given": 294,
+    "kept": 294,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 1520,
+    "kept": 1475,
+    "removed": 45
+   }
+  },
+  "will-cdu-win-the-most-seats-in-the-badenwürttemberg-landtag-election": {
+   "introspected": {
+    "given": 306,
+    "kept": 306,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 1602,
+    "kept": 1601,
+    "removed": 1
+   }
+  },
+  "will-christies-sothebys-or-phillips-report-a-public-auction-sale-of-a-painting-f": {
+   "introspected": {
+    "given": 322,
+    "kept": 322,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 1166,
+    "kept": 1158,
+    "removed": 8
+   }
+  },
+  "will-frontier-group-holdings-inc-file-for-bankruptcy-protection-before-may-1-202": {
+   "introspected": {
+    "given": 324,
+    "kept": 324,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 1621,
+    "kept": 1621,
+    "removed": 0
+   }
+  },
+  "will-hr-33-united-statestaiwan-expedited-doubletax-relief-act-be-enacted-into-la": {
+   "introspected": {
+    "given": 317,
+    "kept": 317,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 1351,
+    "kept": 1350,
+    "removed": 1
+   }
+  },
+  "will-the-cannes-film-festival-publish-its-2026-official-selection-before-april-1": {
+   "introspected": {
+    "given": 243,
+    "kept": 243,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 1074,
+    "kept": 1048,
+    "removed": 26
+   }
+  },
+  "will-the-english-wikipedia-have-at-least-7145000-articles-before-march-1-2026": {
+   "introspected": {
+    "given": 294,
+    "kept": 294,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 1409,
+    "kept": 1402,
+    "removed": 7
+   }
+  },
+  "will-the-iom-missing-migrants-project-record-at-least-1000-mediterranean-migrant": {
+   "introspected": {
+    "given": 359,
+    "kept": 359,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 1278,
+    "kept": 1278,
+    "removed": 0
+   }
+  },
+  "will-the-iom-missing-migrants-project-record-at-least-900-mediterranean-migrant-": {
+   "introspected": {
+    "given": 355,
+    "kept": 355,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 1377,
+    "kept": 1377,
+    "removed": 0
+   }
+  },
+  "will-the-official-result-of-the-lamag-byelection-sabah-scheduled-for-january-24-": {
+   "introspected": {
+    "given": 285,
+    "kept": 285,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 1541,
+    "kept": 1541,
+    "removed": 0
+   }
+  },
+  "will-the-uk-increase-the-qualifying-period-for-settlement-to-10-years-before-may": {
+   "introspected": {
+    "given": 307,
+    "kept": 307,
+    "removed": 0
+   },
+   "extracted": {
+    "given": 1090,
+    "kept": 1090,
+    "removed": 0
+   }
+  }
+ },
+ "source": {
+  "path": "/net/projects/veitch/forecast-cruxes/Data/runs/02_28_26_gpt-5-nano_OpenAI-search_dedup/dedup_manifest.json",
+  "sha256": "8ca4b032de32c60eea50712a4107411c711802d1703166f8bdaf9e381a94845b"
+ }
+}

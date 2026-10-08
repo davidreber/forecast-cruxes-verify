@@ -1,0 +1,114 @@
+{
+ "march_madness/resolution/set_inclusion.json": {
+  "path": "/net/projects/veitch/forecast-cruxes/Data/runs/march_madness_objects59_dedup_seedcheck/apriori/set_inclusion_resolved_p1_pos_only_seed-per_question_2026-09-24T11-33-02.json",
+  "sha256": "16891359cf8ff03b0b1e0d804f6fc81a65746b4978d8e12eb8ede630417319d4"
+ },
+ "march_madness/resolution/granularity_sweep.json": {
+  "path": "/net/projects/veitch/forecast-cruxes/Data/runs/march_madness_objects59_dedup/apriori/granularity_sweep_resolved_p1_pos_only_2026-09-23T17-35-08.json",
+  "sha256": "fab09b07940b1a8dd6590ec055da2744c40b82b02a60bf55ca95e2ef686ed7bf"
+ },
+ "march_madness/resolution@50/within_pool_split.json": {
+  "path": "/net/projects/veitch/forecast-cruxes/Data/runs/march_madness_objects59_dedup/apriori/within_set_baseline_resolved_p1_pos_only_2026-09-23T20-11-45.json",
+  "sha256": "2089babb28fea1c5087d635d3fb715b04f97f7926bf32fcd7ce78426592569e4"
+ },
+ "march_madness/resolution@50/set_inclusion.json": {
+  "path": "/net/projects/veitch/forecast-cruxes/Data/runs/march_madness_objects59_dedup/apriori/set_inclusion_resolved_p1_pos_only_2026-09-23T20-11-45.json",
+  "sha256": "5f4ca43f8190451439c7647d36b0dbc3e278aec26c63046d3c4d4a6a81f924d6"
+ },
+ "march_madness/equivalence/set_inclusion.json": {
+  "path": "/net/projects/veitch/forecast-cruxes/Data/runs/march_madness_objects59_dedup_seedcheck/apriori/set_inclusion_resolved_p0_pos_only_seed-per_question_2026-09-24T11-32-38.json",
+  "sha256": "75fb27699a9774cbf869f395126bff39539bb4ff44764756456b9eca10b6fea0"
+ },
+ "march_madness/debate/set_inclusion.json": {
+  "path": "/net/projects/veitch/forecast-cruxes/Data/runs/march_madness_objects59_dedup_seedcheck/apriori/set_inclusion_resolved_p9_pos_only_seed-per_question_2026-09-24T11-32-34.json",
+  "sha256": "7909aa7dac1c220ea4ceca24ad29f88b2fed27df116c2e8acc81708d8f98f521"
+ },
+ "metaculus/resolution/set_inclusion.json": {
+  "path": "/net/projects/veitch/forecast-cruxes/Data/runs/02_28_26_gpt-5-nano_OpenAI-search_dedup_seedcheck/apriori/set_inclusion_all_p1_pos_only_seed-per_question_2026-09-24T11-21-11.json",
+  "sha256": "8298a3a1e61fc04d0bbc8d4465cd1ad2265b6261adb2830d0a56186a91f1b66f"
+ },
+ "metaculus/equivalence/set_inclusion.json": {
+  "path": "/net/projects/veitch/forecast-cruxes/Data/runs/02_28_26_gpt-5-nano_OpenAI-search_dedup_seedcheck/apriori/set_inclusion_all_p0_pos_only_seed-per_question_2026-09-24T11-21-12.json",
+  "sha256": "4bcea3c9708f021484576212c827da7ad154e717ac6013142340681f851b7428"
+ },
+ "metaculus/debate/set_inclusion.json": {
+  "path": "/net/projects/veitch/forecast-cruxes/Data/runs/02_28_26_gpt-5-nano_OpenAI-search_dedup_seedcheck/apriori/set_inclusion_all_p9_pos_only_seed-per_question_2026-09-24T11-21-45.json",
+  "sha256": "bba1ef646b6e8e27b2edaef1d58c0ede410c7662c4f4f2bf01af39ec94808ed6"
+ },
+ "noise/march_madness/sample1/resolution/set_inclusion.json": {
+  "path": "/net/projects/veitch/forecast-cruxes/Data/runs/march_madness_objects59/apriori/set_inclusion_resolved_p1_pos_only_2026-09-21T23-05-20.json",
+  "sha256": "4a6307490ef8a8bdd36525b061eb512778a29949076d2161cda419fa3ae5b950"
+ },
+ "noise/march_madness/sample1/equivalence/set_inclusion.json": {
+  "path": "/net/projects/veitch/forecast-cruxes/Data/runs/march_madness_objects59/apriori/set_inclusion_resolved_p0_pos_only_2026-09-21T23-22-50.json",
+  "sha256": "dcf2681f624ecaf51a9766fcc940d2fbbc2792cf90cc2951e318f41a9b71a2c0"
+ },
+ "noise/march_madness/sample1/debate/set_inclusion.json": {
+  "path": "/net/projects/veitch/forecast-cruxes/Data/runs/march_madness_objects59/apriori/set_inclusion_resolved_p9_pos_only_2026-09-21T23-29-42.json",
+  "sha256": "55537a150234d25ad04aa458a005bcd996b70342749bf596c75065c036670a28"
+ },
+ "noise/march_madness/sample1/resolution/granularity_sweep.json": {
+  "path": "/net/projects/veitch/forecast-cruxes/Data/runs/march_madness_objects59/apriori/granularity_sweep_resolved_p1_pos_only_2026-09-21T23-05-20.json",
+  "sha256": "248a57018c3a76cfe203acdbbce82511856fd0fdef6cffb34cdebfc7012c8b56"
+ },
+ "noise/march_madness/sample1/resolution/within_pool_split.json": {
+  "path": "/net/projects/veitch/forecast-cruxes/Data/runs/march_madness_objects59/apriori/within_set_baseline_resolved_p1_pos_only_2026-09-21T23-05-20.json",
+  "sha256": "61e55100f088ae0c44bf66b16ce581ef06635d74ca93f0ba374576ee4a059aa6"
+ },
+ "noise/march_madness/sample2/resolution/set_inclusion.json": {
+  "path": "/net/projects/veitch/forecast-cruxes/Data/runs/march_madness_objects59_rep2/apriori/set_inclusion_resolved_p1_pos_only_2026-09-22T14-17-32.json",
+  "sha256": "e6fdbac9f25a0bd29c61ebd1fa116bacd0306f0f414f2aca7535364b02484c2f"
+ },
+ "noise/march_madness/sample2/equivalence/set_inclusion.json": {
+  "path": "/net/projects/veitch/forecast-cruxes/Data/runs/march_madness_objects59_rep2/apriori/set_inclusion_resolved_p0_pos_only_2026-09-22T14-27-11.json",
+  "sha256": "3354b1e3f7047727e9bca852963615540b5268cbcddae0fe3ac505b4d8c5d4b7"
+ },
+ "noise/march_madness/sample2/debate/set_inclusion.json": {
+  "path": "/net/projects/veitch/forecast-cruxes/Data/runs/march_madness_objects59_rep2/apriori/set_inclusion_resolved_p9_pos_only_2026-09-22T14-38-08.json",
+  "sha256": "b1d029a077df261f927d8e253d7bf62e2c7aea3632f36cb5beca3f01e30471e9"
+ },
+ "noise/march_madness/sample2/resolution/granularity_sweep.json": {
+  "path": "/net/projects/veitch/forecast-cruxes/Data/runs/march_madness_objects59_rep2/apriori/granularity_sweep_resolved_p1_pos_only_2026-09-22T14-17-33.json",
+  "sha256": "cf883e12e77e2b9ff4e4c4afd5b80a9ec7d68f1cb69116a877a3f9bd9a6c267e"
+ },
+ "noise/march_madness/sample2/resolution/within_pool_split.json": {
+  "path": "/net/projects/veitch/forecast-cruxes/Data/runs/march_madness_objects59_rep2/apriori/within_set_baseline_resolved_p1_pos_only_2026-09-22T14-17-33.json",
+  "sha256": "c60cc494dc4ddea09ad0bd16c3a67613388fa4a717e7e02397887113e28b97bd"
+ },
+ "noise/metaculus/sample1/resolution/set_inclusion.json": {
+  "path": "/net/projects/veitch/forecast-cruxes/Data/runs/02_28_26_gpt-5-nano_OpenAI-search_dedup/apriori/set_inclusion_all_p1_pos_only_2026-09-23T16-50-14.json",
+  "sha256": "a09faaaf74f814832e1c3fea575d5ee208650cd055180bb19b97c1dd201b508e"
+ },
+ "noise/metaculus/sample1/equivalence/set_inclusion.json": {
+  "path": "/net/projects/veitch/forecast-cruxes/Data/runs/02_28_26_gpt-5-nano_OpenAI-search_dedup/apriori/set_inclusion_all_p0_pos_only_2026-09-23T16-52-02.json",
+  "sha256": "787dd9d81462f2b1a349a0ebce42e6ccb6a4b9afc9d109818ad0013e1a845343"
+ },
+ "noise/metaculus/sample1/debate/set_inclusion.json": {
+  "path": "/net/projects/veitch/forecast-cruxes/Data/runs/02_28_26_gpt-5-nano_OpenAI-search_dedup/apriori/set_inclusion_all_p9_pos_only_2026-09-23T16-50-42.json",
+  "sha256": "c66d0764d1a06d02463ebe7710ec0ce614a7e76ec87954226a0f1dc0a73e9ca0"
+ },
+ "noise/metaculus/sample2/resolution/set_inclusion.json": {
+  "path": "/net/projects/veitch/forecast-cruxes/Data/runs/02_28_26_gpt-5-nano_OpenAI-search_rep2/apriori/set_inclusion_all_p1_pos_only_2026-09-23T18-22-49.json",
+  "sha256": "d98073bf68a3ee3d5d924e72e90cec80436bd6255145a4117a9d1d6e7356ebc8"
+ },
+ "noise/metaculus/sample2/equivalence/set_inclusion.json": {
+  "path": "/net/projects/veitch/forecast-cruxes/Data/runs/02_28_26_gpt-5-nano_OpenAI-search_rep2/apriori/set_inclusion_all_p0_pos_only_2026-09-23T18-12-26.json",
+  "sha256": "cef5912277c774ddbead9e071d4c01a49e66bed751013b1015ffd08067e22d78"
+ },
+ "noise/metaculus/sample2/debate/set_inclusion.json": {
+  "path": "/net/projects/veitch/forecast-cruxes/Data/runs/02_28_26_gpt-5-nano_OpenAI-search_rep2/apriori/set_inclusion_all_p9_pos_only_2026-09-23T18-12-26.json",
+  "sha256": "f445bab30ccde6203562744d4f4fbaef10d3fa2a0f2113175361cc18388835cf"
+ },
+ "march_madness/dedupe.json": {
+  "path": "/net/projects/veitch/forecast-cruxes/Data/runs/march_madness_objects59_dedup/dedup_manifest.json",
+  "sha256": "f3b5b9f59179bca4a2b18e0ba4a7d7d4fa8294030b05324a53743e5308bb48f5"
+ },
+ "metaculus/dedupe.json": {
+  "path": "/net/projects/veitch/forecast-cruxes/Data/runs/02_28_26_gpt-5-nano_OpenAI-search_dedup/dedup_manifest.json",
+  "sha256": "8ca4b032de32c60eea50712a4107411c711802d1703166f8bdaf9e381a94845b"
+ },
+ "runs.json": {
+  "path": "artifact_builder/build_expected.py",
+  "sha256": null
+ }
+}

@@ -1,0 +1,59 @@
+[
+ {
+  "dataset": "march_madness",
+  "criterion": "resolution",
+  "max_contrasts_per_side": 25,
+  "analyses": [
+   "set_inclusion",
+   "granularity_sweep"
+  ]
+ },
+ {
+  "dataset": "march_madness",
+  "criterion": "resolution",
+  "max_contrasts_per_side": 50,
+  "analyses": [
+   "within_pool_split"
+  ]
+ },
+ {
+  "dataset": "march_madness",
+  "criterion": "equivalence",
+  "max_contrasts_per_side": 25,
+  "analyses": [
+   "set_inclusion"
+  ]
+ },
+ {
+  "dataset": "march_madness",
+  "criterion": "debate",
+  "max_contrasts_per_side": 25,
+  "analyses": [
+   "set_inclusion"
+  ]
+ },
+ {
+  "dataset": "metaculus",
+  "criterion": "resolution",
+  "max_contrasts_per_side": 25,
+  "analyses": [
+   "set_inclusion"
+  ]
+ },
+ {
+  "dataset": "metaculus",
+  "criterion": "equivalence",
+  "max_contrasts_per_side": 25,
+  "analyses": [
+   "set_inclusion"
+  ]
+ },
+ {
+  "dataset": "metaculus",
+  "criterion": "debate",
+  "max_contrasts_per_side": 25,
+  "analyses": [
+   "set_inclusion"
+  ]
+ }
+]
